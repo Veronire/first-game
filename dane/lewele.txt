@@ -1,0 +1,14 @@
+Spacerek po pustyni
+lewel1
+Pierwsze starcie
+lewel2
+Walka w porcie
+lewel3
+Zasadzka w jaskini
+lewel4
+Przeprawa przez dżunglę
+lewel5
+Ucieczka
+lewel6
+Powrót do Europy
+lewel7
