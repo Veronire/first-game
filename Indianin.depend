@@ -1,0 +1,407 @@
+# depslib dependency file v1.0
+1336147296 source:/media/ADATA SH93/Indianin/AnimatedImage.cpp
+	"AnimatedImage.h"
+
+1337613332 /media/ADATA SH93/Indianin/AnimatedImage.h
+	"Image.h"
+	<vector>
+
+1336147296 /media/ADATA SH93/Indianin/Image.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<string>
+
+1337901124 source:/media/ADATA SH93/Indianin/Button.cpp
+	"Image.h"
+	"Font.h"
+	"Button.h"
+	<iostream>
+
+1337616148 /media/ADATA SH93/Indianin/Font.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<string>
+	<sstream>
+
+1336119016 /media/ADATA SH93/Indianin/Button.h
+	"Control.h"
+
+1336119018 /media/ADATA SH93/Indianin/Control.h
+
+1337891502 source:/media/ADATA SH93/Indianin/Czlowiek.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Czlowiek.h"
+	"Serduszko.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cmath>
+	<set>
+
+1337893996 /media/ADATA SH93/Indianin/Globalne.h
+	"Allegro.h"
+	<vector>
+	<string>
+	<utility>
+
+1337898858 /media/ADATA SH93/Indianin/Allegro.h
+	"AnimatedImage.h"
+	"Font.h"
+	"Window.h"
+	"TextButton.h"
+	"Sample.h"
+
+1336119064 /media/ADATA SH93/Indianin/Window.h
+	<allegro5/allegro.h>
+	<string>
+	<vector>
+	"Control.h"
+
+1336119062 /media/ADATA SH93/Indianin/TextButton.h
+	"Button.h"
+
+1337798650 /media/ADATA SH93/Indianin/Sample.h
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1337710696 /media/ADATA SH93/Indianin/Fizyka.h
+	"Obiekt.h"
+	<queue>
+	<vector>
+
+1337097238 /media/ADATA SH93/Indianin/Obiekt.h
+	<string>
+	<queue>
+
+1337799790 /media/ADATA SH93/Indianin/Czlowiek.h
+	"Strzala.h"
+	<vector>
+
+1336674874 /media/ADATA SH93/Indianin/Strzala.h
+
+1336149732 /media/ADATA SH93/Indianin/Serduszko.h
+
+1337616148 source:/media/ADATA SH93/Indianin/Font.cpp
+	"Font.h"
+	<iostream>
+
+1337903398 source:/media/ADATA SH93/Indianin/Gra.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Gra.h"
+	<iostream>
+	<fstream>
+	<allegro5/allegro_primitives.h>
+
+1337903398 /media/ADATA SH93/Indianin/Gra.h
+	"Lewel.h"
+
+1336998086 /media/ADATA SH93/Indianin/Lewel.h
+	"Kolce.h"
+	"Serduszko.h"
+	"Skrzynka.h"
+	"Przeciwnik.h"
+	<string>
+
+1337800102 /media/ADATA SH93/Indianin/Kolce.h
+	"Platforma.h"
+
+1336119052 /media/ADATA SH93/Indianin/Platforma.h
+
+1336119056 /media/ADATA SH93/Indianin/Skrzynka.h
+
+1338570300 /media/ADATA SH93/Indianin/Przeciwnik.h
+	"Czlowiek.h"
+
+1337899350 source:/media/ADATA SH93/Indianin/Image.cpp
+	"Image.h"
+	<iostream>
+
+1337800102 source:/media/ADATA SH93/Indianin/Kolce.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Kolce.h"
+	<iostream>
+
+1337892244 source:/media/ADATA SH93/Indianin/Lewel.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Lewel.h"
+	<sstream>
+	<fstream>
+	<iostream>
+
+1336119050 source:/media/ADATA SH93/Indianin/Platforma.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Platforma.h"
+
+1337799070 source:/media/ADATA SH93/Indianin/Sample.cpp
+	"Sample.h"
+	<iostream>
+
+1337098194 source:/media/ADATA SH93/Indianin/Serduszko.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Serduszko.h"
+
+1337799224 source:/media/ADATA SH93/Indianin/Skrzynka.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Skrzynka.h"
+
+1337701852 source:/media/ADATA SH93/Indianin/Strzala.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Strzala.h"
+	<cmath>
+	<iostream>
+
+1337900784 source:/media/ADATA SH93/Indianin/TextButton.cpp
+	"Font.h"
+	"Image.h"
+	"TextButton.h"
+	<iostream>
+
+1337903448 source:/media/ADATA SH93/Indianin/main.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Gra.h"
+	"Menu.h"
+	<iostream>
+	<fstream>
+	<cmath>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+
+1337903166 /media/ADATA SH93/Indianin/Menu.h
+
+1338570300 source:/media/ADATA SH93/Indianin/Fizyka.cpp
+	"Fizyka.h"
+	"Globalne.h"
+	<cmath>
+	<algorithm>
+	<iostream>
+
+1338573044 source:/media/ADATA SH93/Indianin/Menu.cpp
+	"Globalne.h"
+	"Menu.h"
+	<iostream>
+	<fstream>
+
+1338570300 source:/media/ADATA SH93/Indianin/Przeciwnik.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Przeciwnik.h"
+	<cmath>
+	<iostream>
+
+1337965220 source:/media/ADATA SH93/Indianin/Window.cpp
+	"Window.h"
+	<iostream>
+
+1336147296 source:/home/jarek/Projekty/Indianin/AnimatedImage.cpp
+	"AnimatedImage.h"
+
+1337613332 /home/jarek/Projekty/Indianin/AnimatedImage.h
+	"Image.h"
+	<vector>
+
+1336147296 /home/jarek/Projekty/Indianin/Image.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<string>
+
+1337901124 source:/home/jarek/Projekty/Indianin/Button.cpp
+	"Image.h"
+	"Font.h"
+	"Button.h"
+	<iostream>
+
+1337616148 /home/jarek/Projekty/Indianin/Font.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<string>
+	<sstream>
+
+1336119016 /home/jarek/Projekty/Indianin/Button.h
+	"Control.h"
+
+1336119018 /home/jarek/Projekty/Indianin/Control.h
+
+1339161307 source:/home/jarek/Projekty/Indianin/Fizyka.cpp
+	"Fizyka.h"
+	"Globalne.h"
+	<cmath>
+	<algorithm>
+	<iostream>
+
+1337710696 /home/jarek/Projekty/Indianin/Fizyka.h
+	"Obiekt.h"
+	<queue>
+	<vector>
+
+1337097238 /home/jarek/Projekty/Indianin/Obiekt.h
+	<string>
+	<queue>
+
+1339160957 /home/jarek/Projekty/Indianin/Globalne.h
+	"Allegro.h"
+	<vector>
+	<string>
+	<utility>
+
+1337898858 /home/jarek/Projekty/Indianin/Allegro.h
+	"AnimatedImage.h"
+	"Font.h"
+	"Window.h"
+	"TextButton.h"
+	"Sample.h"
+
+1339158124 /home/jarek/Projekty/Indianin/Window.h
+	<allegro5/allegro.h>
+	<string>
+	<vector>
+	"Control.h"
+
+1336119062 /home/jarek/Projekty/Indianin/TextButton.h
+	"Button.h"
+
+1337798650 /home/jarek/Projekty/Indianin/Sample.h
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1337616148 source:/home/jarek/Projekty/Indianin/Font.cpp
+	"Font.h"
+	<iostream>
+
+1339695036 source:/home/jarek/Projekty/Indianin/Gra.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Gra.h"
+	<iostream>
+	<fstream>
+	<allegro5/allegro_primitives.h>
+
+1339159748 /home/jarek/Projekty/Indianin/Gra.h
+	"Lewel.h"
+
+1336998086 /home/jarek/Projekty/Indianin/Lewel.h
+	"Kolce.h"
+	"Serduszko.h"
+	"Skrzynka.h"
+	"Przeciwnik.h"
+	<string>
+
+1337800102 /home/jarek/Projekty/Indianin/Kolce.h
+	"Platforma.h"
+
+1336119052 /home/jarek/Projekty/Indianin/Platforma.h
+
+1336149732 /home/jarek/Projekty/Indianin/Serduszko.h
+
+1336119056 /home/jarek/Projekty/Indianin/Skrzynka.h
+
+1339697445 /home/jarek/Projekty/Indianin/Przeciwnik.h
+	"Czlowiek.h"
+
+1339697445 /home/jarek/Projekty/Indianin/Czlowiek.h
+	"Strzala.h"
+	<vector>
+
+1336674874 /home/jarek/Projekty/Indianin/Strzala.h
+
+1337899350 source:/home/jarek/Projekty/Indianin/Image.cpp
+	"Image.h"
+	<iostream>
+
+1337800102 source:/home/jarek/Projekty/Indianin/Kolce.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Kolce.h"
+	<iostream>
+
+1337892244 source:/home/jarek/Projekty/Indianin/Lewel.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Lewel.h"
+	<sstream>
+	<fstream>
+	<iostream>
+
+1338573044 source:/home/jarek/Projekty/Indianin/Menu.cpp
+	"Globalne.h"
+	"Menu.h"
+	<iostream>
+	<fstream>
+
+1337903166 /home/jarek/Projekty/Indianin/Menu.h
+
+1336119050 source:/home/jarek/Projekty/Indianin/Platforma.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Platforma.h"
+
+1339680815 source:/home/jarek/Projekty/Indianin/Przeciwnik.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Przeciwnik.h"
+	<cmath>
+	<iostream>
+
+1339695036 source:/home/jarek/Projekty/Indianin/Sample.cpp
+	"Sample.h"
+	<iostream>
+
+1337098194 source:/home/jarek/Projekty/Indianin/Serduszko.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Serduszko.h"
+
+1337799224 source:/home/jarek/Projekty/Indianin/Skrzynka.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Skrzynka.h"
+
+1337701852 source:/home/jarek/Projekty/Indianin/Strzala.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Strzala.h"
+	<cmath>
+	<iostream>
+
+1337900784 source:/home/jarek/Projekty/Indianin/TextButton.cpp
+	"Font.h"
+	"Image.h"
+	"TextButton.h"
+	<iostream>
+
+1339158124 source:/home/jarek/Projekty/Indianin/Window.cpp
+	"Window.h"
+	<iostream>
+
+1339437207 source:/home/jarek/Projekty/Indianin/main.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Gra.h"
+	"Menu.h"
+	<iostream>
+	<fstream>
+	<cmath>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+
+1339684454 source:/home/jarek/Projekty/Indianin/Czlowiek.cpp
+	"Globalne.h"
+	"Fizyka.h"
+	"Czlowiek.h"
+	"Serduszko.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cmath>
+	<set>
+

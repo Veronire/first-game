@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Indianin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Indianin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Indianin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs allegro-5.0`" />
+			<Add option="`pkg-config --libs allegro_image-5.0`" />
+			<Add option="`pkg-config --libs allegro_ttf-5.0`" />
+			<Add option="`pkg-config --libs allegro_font-5.0`" />
+			<Add option="`pkg-config --libs allegro_dialog-5.0`" />
+			<Add option="`pkg-config --libs allegro_primitives-5.0`" />
+			<Add option="`pkg-config --libs allegro_audio-5.0`" />
+			<Add option="`pkg-config --libs allegro_acodec-5.0`" />
+		</Linker>
+		<Unit filename="Allegro.h" />
+		<Unit filename="AnimatedImage.cpp" />
+		<Unit filename="AnimatedImage.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Control.h" />
+		<Unit filename="Czlowiek.cpp" />
+		<Unit filename="Czlowiek.h" />
+		<Unit filename="Fizyka.cpp" />
+		<Unit filename="Fizyka.h" />
+		<Unit filename="Font.cpp" />
+		<Unit filename="Font.h" />
+		<Unit filename="Globalne.h" />
+		<Unit filename="Gra.cpp" />
+		<Unit filename="Gra.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="Kolce.cpp" />
+		<Unit filename="Kolce.h" />
+		<Unit filename="Lewel.cpp" />
+		<Unit filename="Lewel.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Obiekt.h" />
+		<Unit filename="Platforma.cpp" />
+		<Unit filename="Platforma.h" />
+		<Unit filename="Przeciwnik.cpp" />
+		<Unit filename="Przeciwnik.h" />
+		<Unit filename="Sample.cpp" />
+		<Unit filename="Sample.h" />
+		<Unit filename="Serduszko.cpp" />
+		<Unit filename="Serduszko.h" />
+		<Unit filename="Skrzynka.cpp" />
+		<Unit filename="Skrzynka.h" />
+		<Unit filename="Strzala.cpp" />
+		<Unit filename="Strzala.h" />
+		<Unit filename="TextButton.cpp" />
+		<Unit filename="TextButton.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
